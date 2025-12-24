@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(183, 134, 10), rgb(183,134,10));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    width: 320px;
+    background: #fff5ec;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.cover img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+}
+
+.song {
+    margin: 10px 0 5px;
+}
+
+.artist {
+    color: gray;
+    font-size: 14px;
+}
+
+.progress-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.progress {
+    flex: 1;
+    height: 6px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 40%;
+    height: 100%;
+    background: black;
+}
+
+.controls {
+    margin: 15px 0;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.controls button:hover {
+    transform: scale(1.2);
+}
+
+.play {
+    background: #ff5c8a;
+    color: black;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.lyrics {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #555;
+    letter-spacing: 1px;
+}
